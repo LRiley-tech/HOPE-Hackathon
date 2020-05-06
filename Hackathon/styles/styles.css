@@ -83,7 +83,7 @@ body{
   .hero--image{
     display: flex;
     justify-content: center;
-    background: url("/imgs/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg");
+    background: url("/Hackathon/imgs/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
