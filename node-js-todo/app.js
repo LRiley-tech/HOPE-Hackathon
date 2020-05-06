@@ -7,7 +7,7 @@ let app = express();
 app.set('view engine', 'ejs');
 
 // Used to make public folder the root for routes
-app.use(express.static('./public'));
+app.use(express.static('./public2'));
 
 // fire request
 todoRequest(app)

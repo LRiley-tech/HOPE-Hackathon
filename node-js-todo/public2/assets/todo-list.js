@@ -16,12 +16,17 @@ $(document).ready(function() {
     return false;
   })
 
-  $.ajax({
-    type: "DELETE",
-    url: "/todo.js",
-    success: function(data) {
-      location.reload('')
-    }
-  })
 
-})
+  $(li).on('click', function() {
+    var item  = $(this).text().replace(/ /g, "-");
+    $.ajax({
+      type: "DELETE",
+      url: "/todo.js/" + item,
+      success: function(data) {
+        location.reload('')
+      }
+    })
+  
+  })
+  })
+ 
