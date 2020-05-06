@@ -165,3 +165,26 @@ body  {
     bottom: 0;
     border-top: 20px;
 }
+
+
+/* About */
+
+.about{
+    background-image: linear-gradient(#EDF5E1, #8ee, rgb(53, 122, 226));
+    height: 200px;
+    text-align: center;
+  }
+
+.about-head{
+    color: #05386b;
+    font-size: 40px;
+    padding-top: 10px;
+  }
+
+.about-info {
+  font-size: 20px;
+  color:#05386B;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}  
