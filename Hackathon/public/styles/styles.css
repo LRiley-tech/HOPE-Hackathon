@@ -98,7 +98,6 @@ body  {
 .container {
     margin: auto;
     max-width: 1100px;
-    overflow: auto;
     padding: 0 20px;
    
 }
@@ -118,7 +117,7 @@ body  {
     margin-left: 320px;
     margin-bottom: 20px;
     background-color:#5cdb95;
-    width: 45%;
+    width: 50%;
    
 }
 
@@ -158,10 +157,67 @@ body  {
 }
 
 /* Footer */
+.fa-github{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.fa-github:hover{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+aside{
+display: flex;
+justify-content: center;
+text-align: center;
+color: white;
+margin-top: 70px;
+}
 .footer{
-    background-color: #05386B;
-    height: 250px;
-    width: 100%;
-    bottom: 0;
-    border-top: 20px;
+  display: block;
+  background-color: #05386B;
+  height: 250px;
+  width: 100%;
+  bottom: 0;
+}
+
+/* About */
+
+.about{
+    background-image: linear-gradient(#EDF5E1, #8ee, rgb(53, 122, 226));
+    height: 200px;
+    text-align: center;
+  }
+
+.about-head{
+    color: #05386b;
+    font-size: 40px;
+    padding-top: 10px;
+  }
+
+.about-info {
+  font-size: 20px;
+  color:#05386B;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}  
+
+.hero--image{
+  display: flex;
+  justify-content: center;
+  background: url("/Hackathon/imgs/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 400px;
+  width: 100%;
+  bottom:50px;
 }
