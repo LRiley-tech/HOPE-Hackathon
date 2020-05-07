@@ -158,14 +158,35 @@ body  {
 }
 
 /* Footer */
-.footer{
-    background-color: #05386B;
-    height: 250px;
-    width: 100%;
-    bottom: 0;
-    border-top: 20px;
+.fa-github{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  padding-top: 10px;
+  cursor: pointer;
 }
-
+.fa-github:hover{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+aside{
+display: flex;
+justify-content: center;
+text-align: center;
+color: white;
+margin-top: 70px;
+}
+.footer{
+  display: block;
+  background-color: #05386B;
+  height: 250px;
+  width: 100%;
+  bottom: 0;
+}
 
 /* About */
 
